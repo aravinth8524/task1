@@ -1,0 +1,24 @@
+section{
+	box-shadow:0 0 1px;
+	padding:1em;
+}
+button{
+	
+	padding:10px;
+	border:none;
+	background-color:blue;
+	color:white;
+	position:relative;
+	border-radius:5px;
+}
+button:after{
+	content:'';
+	position:absolute;
+	right:-7px;
+	top:-7px;
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	background-color:red;
+	border:1.5px solid white;
+}
